@@ -39,11 +39,12 @@ int main(void)
 	int *b;
 
 	b = quickSort(a,10);
+	int c;
 	int i = 0;
 	while(i<10)
 		cout<<b[i++]<<endl;
 
-	return 1;
+	return 0;
 
 }
 
